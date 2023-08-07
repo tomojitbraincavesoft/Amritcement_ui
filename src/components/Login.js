@@ -10,8 +10,8 @@ export default function Login() {
       <div className="container mt-5 pt-5">
         <div className="row justify-content-center">
         <div className="col-md-8 col-lg-6 col-xl-5">
-        <div className="card overflow-hidden ">
-            <div className="bg-primary bg-soft p-5">
+        <div className="card overflow-hidden " style={{borderRadius: 15 + 'px'}}>
+            <div className="bg-white p-5">
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <img src={Logo} alt="" className='img-fluid' />
@@ -23,7 +23,7 @@ export default function Login() {
                  <Button title={"LOGIN"}/>
 
                  <div className="text-center mt-3">
-                 <a href="/" class="text-dark"><i className="mdi mdi-lock me-1"></i> Forgot your password?</a>
+                 <a href="/" class="text-muted"><i className="mdi mdi-lock me-1"></i> Forgot your password?</a>
                  </div>
                 </form>
 

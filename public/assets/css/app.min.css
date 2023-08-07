@@ -5431,7 +5431,14 @@ table.table .form-control.error {
 table.table td .add {
     display: none;
 }
+/* custom css */
 .btn-custom{
     background-color: #145075;
+}
+.login-btn input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #145075;
 }
 /*# sourceMappingURL=app.min.css.map */
